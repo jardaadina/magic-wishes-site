@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 25px;
+}
+
+.left {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}

@@ -1,0 +1,5 @@
+<div class="wishes">
+  @for(secretSanta of santas(); track secretSanta.id){
+  <app-group [secretSanta]="secretSanta"></app-group>
+  }
+</div>

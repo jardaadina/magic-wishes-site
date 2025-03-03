@@ -1,0 +1,27 @@
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <p>
+    <label for="title">Wish Title</label>
+    <input type="text" id="title" name="title" ngModel />
+  </p>
+
+  <p>
+    <label for="description">Summary of your wish</label>
+    <textarea id="description" rows="5" name="description" ngModel></textarea>
+  </p>
+
+  <p>
+    <label for="date">Due Date</label>
+    <input type="date" id="date" name="date" ngModel />
+  </p>
+
+  <p class="actions">
+    <a (click)="clickingCancel()">Cancel</a>
+    <button>Create</button>
+  </p>
+
+  @if(invalidForm() == 1){
+  <div style="color: red">
+    <p>Please fullfill all fields !</p>
+  </div>
+  }
+</form>

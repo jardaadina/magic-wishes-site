@@ -1,0 +1,10 @@
+<div>
+  <h1>Wishes</h1>
+  <div class="wishes">
+    @for(wish of wishes(); track wish.title){ @if(wish.active == true){
+    <div>
+      <app-wish [wish]="wish"></app-wish>
+    </div>
+    } }
+  </div>
+</div>

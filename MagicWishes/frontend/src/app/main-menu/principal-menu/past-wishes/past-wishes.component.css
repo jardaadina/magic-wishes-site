@@ -1,0 +1,21 @@
+/* div {
+  width: 700px;
+  height: 100%;
+}
+
+div > * {
+  margin: 10px;
+} */
+h1 {
+  font-size: 3.4rem;
+}
+
+.wishes {
+  overflow-y: scroll;
+
+  max-height: 600px;
+}
+
+.wishes > * {
+  margin: 10px;
+}

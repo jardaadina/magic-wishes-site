@@ -1,0 +1,51 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 700px;
+  height: 400px;
+
+  background-color: rgb(255, 255, 255, 0.2);
+  border-radius: 50px;
+
+  text-align: center;
+}
+
+div > * {
+  margin: 15px;
+
+  text-shadow: 2px 2px 2px rgb(244, 66, 135);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  width: 70%;
+  font-size: 1.6rem;
+}
+
+button {
+  width: 50%;
+  font-size: 1.5rem;
+
+  padding: 25px;
+  border-radius: 30px;
+
+  color: rgb(252, 109, 135, 0.6);
+  background-color: white;
+  border: 3px solid rgb(252, 109, 135, 0.6);
+
+  letter-spacing: 1px;
+}
+
+button:hover {
+  cursor: pointer;
+
+  color: white;
+  border: 3px solid white;
+  background-color: rgb(252, 109, 135, 0.6);
+}

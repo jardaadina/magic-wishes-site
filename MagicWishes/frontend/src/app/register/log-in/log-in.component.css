@@ -1,0 +1,59 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 650px;
+  height: 600px;
+  background-color: rgb(255, 255, 255, 0.2);
+
+  border-radius: 30px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+input {
+  width: 65%;
+  height: 10%;
+  margin: 12px;
+  font-size: 1.5rem;
+  color: white;
+
+  text-align: center;
+
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255, 0.25);
+  border: 2px solid pink;
+}
+
+input:focus {
+  outline: none !important;
+  border: 3px solid rgb(252, 109, 135);
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+button {
+  width: 50%;
+  font-size: 1.4rem;
+  padding: 20px;
+  border-radius: 30px;
+
+  color: rgb(252, 109, 135, 0.6);
+  background-color: white;
+  border: 3px solid rgb(252, 109, 135, 0.6);
+}
+
+button:hover {
+  cursor: pointer;
+
+  color: white;
+  border: 3px solid white;
+  background-color: rgb(252, 109, 135, 0.6);
+}

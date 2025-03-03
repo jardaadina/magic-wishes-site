@@ -1,0 +1,30 @@
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  font-size: 4rem;
+}
+
+button {
+  margin-top: 20px;
+  width: 300px;
+  font-size: 1.4rem;
+  padding: 20px;
+  border-radius: 30px;
+
+  color: rgb(252, 109, 135, 0.6);
+  background-color: white;
+  border: 3px solid rgb(252, 109, 135, 0.6);
+}
+
+button:hover {
+  cursor: pointer;
+
+  color: white;
+  border: 3px solid white;
+  background-color: rgb(252, 109, 135, 0.6);
+}

@@ -1,0 +1,14 @@
+h1 {
+  font-size: 3.4rem;
+}
+
+.wishes {
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  max-height: 600px;
+}
+
+.wishes > * {
+  margin: 10px;
+}

@@ -1,0 +1,19 @@
+<div class="body">
+  <h1>Your Past Wishes</h1>
+  <div class="wishes">
+    @for(wish of wishes(); track wish.id){ @if(wish.active == false){
+    <div>
+      <app-past-wish [wish]="wish"></app-past-wish>
+    </div>
+    } }
+    <!-- <div>
+      <app-past-wish></app-past-wish>
+    </div>
+    <div>
+      <app-past-wish></app-past-wish>
+    </div>
+    <div>
+      <app-past-wish></app-past-wish>
+    </div> -->
+  </div>
+</div>

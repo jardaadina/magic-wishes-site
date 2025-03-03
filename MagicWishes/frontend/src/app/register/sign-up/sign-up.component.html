@@ -1,0 +1,25 @@
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <h1>Sign Up</h1>
+  <input id="name" name="name" type="text" placeholder="Name" ngModel />
+  <input id="email" name="email" type="text" placeholder="Email" ngModel />
+  <input
+    id="pasword"
+    name="password"
+    type="password"
+    placeholder="Password"
+    ngModel
+  />
+  <button>Register</button>
+
+  @if(invalidCredentials){
+  <div style="color: red">
+    <p>Enter a name with at least 3 characters</p>
+    <p>Enter a valid email</p>
+    <p>Enter a password with at least 5 characters</p>
+  </div>
+  } @if(emailAlreadyExists){
+  <div style="color: red">
+    <p>User with the same email already exists</p>
+  </div>
+  }
+</form>

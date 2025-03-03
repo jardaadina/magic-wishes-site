@@ -1,0 +1,9 @@
+<header>
+  <app-logo class="left"></app-logo>
+  <app-search-bar class="middle"></app-search-bar>
+  @if(!isLogged()){
+  <app-isnologged class="left"></app-isnologged>
+  }@else{
+  <app-islogged class="left"></app-islogged>
+  }
+</header>

@@ -1,0 +1,41 @@
+div {
+  background-color: rgb(255, 255, 255, 0.5);
+
+  width: 700px;
+  height: 200px;
+
+  padding: 30px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: rgb(237, 106, 125);
+}
+
+time {
+  font-size: 1.2rem;
+  color: rgb(250, 140, 156);
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+button {
+  width: 150px;
+  padding: 15px;
+
+  color: rgb(250, 140, 156);
+  border: 2px solid rgb(250, 140, 156);
+  background-color: rgb(255, 255, 255, 0.5);
+
+  float: right;
+}
+
+button:hover {
+  cursor: pointer;
+
+  color: white;
+  background-color: rgb(250, 140, 156);
+  border: 2px solid rgb(218, 79, 100);
+}

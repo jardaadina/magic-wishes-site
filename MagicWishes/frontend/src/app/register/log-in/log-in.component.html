@@ -1,0 +1,17 @@
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <h1>Log In</h1>
+  <input id="email" name="email" type="text" placeholder="Email" ngModel />
+  <input
+    id="password"
+    name="password"
+    type="password"
+    placeholder="Password"
+    ngModel
+  />
+  <button>Log In</button>
+  @if(invalidCredentials){
+  <div style="color: red">
+    <p>Email or password may be incorrect</p>
+  </div>
+  }
+</form>
